@@ -13,8 +13,8 @@ namespace workspace
 
         private static async Task CreateItem()
         {
-            var cosmosUrl =""; // add uri
-            var cosmoskey = ""; // secret key
+            var cosmosUrl ="https://vso-cosmosdb.documents.azure.com:443/";
+            var cosmoskey = "7YmmJN39GvohOX1RkxNtX4LhbBNMTkWv3HhBkjEJmugBhCyKzhQhXUHpaXlD6M5knubuKzKFgqMdvdxA93lJLw==";
             var databaseName = "TestDB";
             var containerName ="MyContainerName";
             var partionKeyPath = "/partionKeyPath";
